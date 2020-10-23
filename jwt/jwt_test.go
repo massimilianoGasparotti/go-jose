@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	jose "github.com/mgasparotti/go-jose/v3"
+	jose "github.com/mgasparotti/go-jose"
 	"github.com/stretchr/testify/assert"
 )
 

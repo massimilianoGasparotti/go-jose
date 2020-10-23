@@ -48,7 +48,7 @@ libraries in other languages.
 ([branch](https://github.com/mgasparotti/go-jose/tree/master),
 [doc](https://godoc.org/github.com/square/go-jose)) is the under development/unstable version (not released yet):
 
-    import "github.com/mgasparotti/go-jose/v3"
+    import "github.com/mgasparotti/go-jose"
 
 All new feature development takes place on the `master` branch, which we are
 preparing to release as version 3 soon. Version 2 will continue to receive

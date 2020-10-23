@@ -27,7 +27,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/mgasparotti/go-jose/v3"
+	"github.com/mgasparotti/go-jose"
 )
 
 func TestRoundtripsJWSCryptoSigner(t *testing.T) {

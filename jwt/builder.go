@@ -21,9 +21,9 @@ import (
 	"bytes"
 	"reflect"
 
-	"github.com/mgasparotti/go-jose/v3/json"
+	"github.com/mgasparotti/go-jose/json"
 
-	"github.com/mgasparotti/go-jose/v3"
+	"github.com/mgasparotti/go-jose"
 )
 
 // Builder is a utility for making JSON Web Tokens. Calls can be chained, and

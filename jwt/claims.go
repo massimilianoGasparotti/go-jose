@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/mgasparotti/go-jose/v3/json"
+	"github.com/mgasparotti/go-jose/json"
 )
 
 // Claims represents public claim values (as specified in RFC 7519).

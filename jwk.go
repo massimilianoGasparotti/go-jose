@@ -34,7 +34,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/mgasparotti/go-jose/v3/json"
+	"github.com/mgasparotti/go-jose/json"
 )
 
 // rawJSONWebKey represents a public or private key in JWK format, used for parsing/serializing.

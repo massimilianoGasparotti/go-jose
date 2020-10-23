@@ -1,4 +1,4 @@
-module github.com/mgasparotti/go-jose/v3
+module github.com/mgasparotti/go-jose
 
 go 1.12
 
