@@ -27,7 +27,7 @@ import (
 	"errors"
 	"fmt"
 
-	jose "github.com/square/go-jose/v3"
+	jose "github.com/mgasparotti/go-jose/v3"
 )
 
 // GenerateSigningKey generates a keypair for corresponding SignatureAlgorithm.

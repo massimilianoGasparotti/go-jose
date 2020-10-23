@@ -34,7 +34,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/square/go-jose/v3/json"
+	"github.com/mgasparotti/go-jose/v3/json"
 )
 
 // Test chain of two X.509 certificates

@@ -25,7 +25,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/square/go-jose/v3/json"
+	"github.com/mgasparotti/go-jose/v3/json"
 )
 
 // NonceSource represents a source of random nonces to go into JWS objects
@@ -250,7 +250,7 @@ func (ctx *genericSigner) Sign(payload []byte) (*JSONWebSignature, error) {
 			// result of the JOSE spec. We've decided that this library will only include one or
 			// the other to avoid this confusion.
 			//
-			// See https://github.com/square/go-jose/issues/157 for more context.
+			// See https://github.com/mgasparotti/go-jose/issues/157 for more context.
 			if ctx.embedJWK {
 				protected[headerJWK] = recipient.publicKey()
 			} else {

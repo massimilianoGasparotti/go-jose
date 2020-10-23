@@ -27,7 +27,7 @@ The implementation follows the
 Tables of supported algorithms are shown below. The library supports both
 the compact and JWS/JWE JSON Serialization formats, and has optional support for
 multiple recipients. It also comes with a small command-line utility
-([`jose-util`](https://github.com/square/go-jose/tree/master/jose-util))
+([`jose-util`](https://github.com/mgasparotti/go-jose/tree/master/jose-util))
 for dealing with JOSE messages in a shell.
 
 **Note**: We use a forked version of the `encoding/json` package from the Go
@@ -39,16 +39,16 @@ libraries in other languages.
 ### Versions
 
 [Version 2](https://gopkg.in/square/go-jose.v2)
-([branch](https://github.com/square/go-jose/tree/v2),
+([branch](https://github.com/mgasparotti/go-jose/tree/v2),
 [doc](https://godoc.org/gopkg.in/square/go-jose.v2)) is the current stable version:
 
     import "gopkg.in/square/go-jose.v2"
 
 [Version 3](https://github.com/square/go-jose)
-([branch](https://github.com/square/go-jose/tree/master),
+([branch](https://github.com/mgasparotti/go-jose/tree/master),
 [doc](https://godoc.org/github.com/square/go-jose)) is the under development/unstable version (not released yet):
 
-    import "github.com/square/go-jose/v3"
+    import "github.com/mgasparotti/go-jose/v3"
 
 All new feature development takes place on the `master` branch, which we are
 preparing to release as version 3 soon. Version 2 will continue to receive
@@ -117,6 +117,6 @@ allows attaching a key id.
 
 Examples can be found in the Godoc
 reference for this package. The
-[`jose-util`](https://github.com/square/go-jose/tree/master/jose-util)
+[`jose-util`](https://github.com/mgasparotti/go-jose/tree/master/jose-util)
 subdirectory also contains a small command-line utility which might be useful
 as an example as well.

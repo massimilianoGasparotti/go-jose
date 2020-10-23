@@ -16,7 +16,7 @@
 
 package main
 
-import jose "github.com/square/go-jose/v3"
+import jose "github.com/mgasparotti/go-jose/v3"
 
 func encrypt() {
 	pub, err := LoadPublicKey(keyBytes())
